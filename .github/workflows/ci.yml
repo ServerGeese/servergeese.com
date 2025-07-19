@@ -2,8 +2,7 @@ name: Deploy MkDocs site to GitHub Pages
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]  # or 'main' if that’s your default branch
 
 permissions:
   contents: read

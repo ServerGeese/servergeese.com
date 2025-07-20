@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: SERVER GEESE
 
 theme:
   name: material
@@ -26,11 +26,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-nav:
-  - Home: index.md
-  - About: about.md
-  - Code: code/samplecode.md
-  - Blog: blog/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -42,4 +37,27 @@ markdown_extensions:
   - pymdownx.superfences
 
 plugins:
+  - search
   - blog
+  - tags
+
+
+nav:
+  - Home: index.md
+  - Game Development:
+      - Unreal Engine 5: gamedev/ue5.md
+      - Debt Is Eternal (DIE): gamedev/die-project.md
+      - Visuals & UI: gamedev/visuals.md
+      - Multiplayer:
+          - Overview: gamedev/multiplayer/overview.md
+          - GameLift: gamedev/multiplayer/gamelift.md
+  - DevOps & Cloud:
+      - Overview: devops/index.md
+      - Terraform:
+          - EC2 + RDS: devops/terraform/ec2-nginx-rds.md
+      - AWS:
+          - IAM Pitfalls: devops/aws/iam-pitfalls.md
+      - Automation:
+          - Golang Scripts: devops/automation/golang-scripts.md
+          - GitHub Actions: devops/automation/github-actions.md
+

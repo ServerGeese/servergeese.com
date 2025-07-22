@@ -50,6 +50,7 @@ nav:
       - Visuals & UI: gamedev/visuals.md
       - Multiplayer:
           - Overview: gamedev/multiplayer/overview.md
+          - Multiplayer from scratch: gamedev/multiplayer/MPScratch.md
           - GameLift: gamedev/multiplayer/gamelift.md
   - DevOps & Cloud:
       - Overview: devops/index.md
@@ -60,4 +61,5 @@ nav:
       - Automation:
           - Golang Scripts: devops/automation/golang-scripts.md
           - GitHub Actions: devops/automation/github-actions.md
+
 
